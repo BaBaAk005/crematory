@@ -10,3 +10,20 @@
     └── text.txt
 
 5 directories, 4 files
+  153  ls
+  154  mkdir -p ~/homework/hw1
+  155  cd homework/
+  156  cd hw1/
+  157  touch my_file.txt
+  158  echo "Хех, больше не пусто" > my_file.txt 
+  159  mv my_file.txt my_homework_file.txt
+  160  cp my_homework_file.txt ~/homework/
+  161  rm ~/homework/my_homework_file.txt
+  162  tree ~ >> my_homework_file.txt 
+  163  cp my_homework_file.txt ~/crematory/
+  164  cd ../
+  165  cd crematory/
+  166  git add my_homework_file.txt
+  167  git commit -m "С историей Git"
+  168  git push
+  169  history 17 >> my_homework_file.txt 
