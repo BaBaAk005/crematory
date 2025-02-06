@@ -1,0 +1,29 @@
+Хех, больше не пусто
+/home/babanix
+├── crematory
+├── hehe.tex
+├── hehe.txt
+├── homework
+│   └── hw1
+│       └── my_homework_file.txt
+└── mammamia
+    └── text.txt
+
+5 directories, 4 files
+   82  mkdir -p ~/homework/hw1
+   83  cd homework/
+   84  cd hw1/
+   85  touch my_file.txt
+   86  echo "Хех, больше не пусто" > my_file.txt 
+   87  mv my_file.txt my_homework_file.txt
+   88  cp my_homework_file.txt ~/homework/
+   89  rm ~/homework/my_homework_file.txt
+   90  tree ~ >> my_homework_file.txt 
+   91  cp my_homework_file.txt ~/crematory/
+   92  cd ~
+   93  ls
+   94  cd crematory/
+   95  ls
+   96  cat
+   97  cat my_homework_file.txt 
+   98  history 17 >> my_homework_file.txt 
